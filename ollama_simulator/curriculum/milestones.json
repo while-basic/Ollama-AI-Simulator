@@ -1,0 +1,246 @@
+{
+  "infant": [
+    {
+      "id": "first_sound",
+      "title": "First Sound",
+      "description": "Baby produces their first recognizable sound",
+      "trigger": {
+        "type": "response_contains",
+        "value": ["a", "e", "i", "o", "u", "m", "b", "p"]
+      },
+      "reward": 0.8
+    },
+    {
+      "id": "first_word",
+      "title": "First Word",
+      "description": "Baby says their first word",
+      "trigger": {
+        "type": "response_contains",
+        "value": ["mama", "dada", "up", "down", "yes", "no"]
+      },
+      "reward": 1.0
+    },
+    {
+      "id": "emotional_response",
+      "title": "Emotional Response",
+      "description": "Baby expresses a basic emotion",
+      "trigger": {
+        "type": "response_contains",
+        "value": ["happy", "sad", "angry"]
+      },
+      "reward": 0.7
+    }
+  ],
+  "toddler": [
+    {
+      "id": "first_sentence",
+      "title": "First Sentence",
+      "description": "Baby forms their first simple sentence",
+      "trigger": {
+        "type": "response_pattern",
+        "value": "\\b(I|You|It|We|They)\\s+(am|are|is|was|were|have|has|had|can|will|do|does|did)\\b"
+      },
+      "reward": 1.0
+    },
+    {
+      "id": "first_question",
+      "title": "First Question",
+      "description": "Baby asks their first question",
+      "trigger": {
+        "type": "response_pattern",
+        "value": "\\b(What|Where|Who|Why|How|When)\\b.*\\?"
+      },
+      "reward": 1.0
+    },
+    {
+      "id": "social_interaction",
+      "title": "Social Interaction",
+      "description": "Baby engages in basic social interaction",
+      "trigger": {
+        "type": "response_contains",
+        "value": ["hello", "goodbye", "please", "thank you"]
+      },
+      "reward": 0.8
+    },
+    {
+      "id": "why_loop",
+      "title": "Why Loop",
+      "description": "Baby enters the 'why' phase, asking repeated why questions",
+      "trigger": {
+        "type": "consecutive_responses",
+        "pattern": "\\bwhy\\b",
+        "count": 3
+      },
+      "reward": 0.6
+    }
+  ],
+  "child": [
+    {
+      "id": "complex_sentence",
+      "title": "Complex Sentence",
+      "description": "Baby forms a complex sentence with multiple clauses",
+      "trigger": {
+        "type": "response_pattern",
+        "value": "\\b(because|if|when|after|before)\\b.*\\b(I|you|he|she|it|we|they)\\b.*\\b(am|are|is|was|were|have|has|had|can|will|do|does|did)\\b"
+      },
+      "reward": 0.9
+    },
+    {
+      "id": "storytelling",
+      "title": "Storytelling",
+      "description": "Baby tells a simple story",
+      "trigger": {
+        "type": "response_length_and_contains",
+        "min_length": 50,
+        "value": ["once upon a time", "then", "end", "character", "adventure"]
+      },
+      "reward": 1.0
+    },
+    {
+      "id": "self_reference",
+      "title": "Self Reference",
+      "description": "Baby refers to themselves as 'I' or by name",
+      "trigger": {
+        "type": "response_pattern",
+        "value": "\\bI\\s+am\\s+Baby\\b|\\bI\\s+am\\b"
+      },
+      "reward": 0.8
+    },
+    {
+      "id": "cause_effect",
+      "title": "Cause and Effect",
+      "description": "Baby demonstrates understanding of cause and effect",
+      "trigger": {
+        "type": "response_pattern",
+        "value": "\\b(because|if)\\b.*\\b(then|so|therefore)\\b"
+      },
+      "reward": 0.9
+    }
+  ],
+  "teenager": [
+    {
+      "id": "abstract_thinking",
+      "title": "Abstract Thinking",
+      "description": "Baby demonstrates abstract thinking",
+      "trigger": {
+        "type": "response_contains",
+        "value": ["freedom", "justice", "truth", "beauty", "meaning"]
+      },
+      "reward": 1.0
+    },
+    {
+      "id": "philosophical_question",
+      "title": "Philosophical Question",
+      "description": "Baby asks a philosophical question",
+      "trigger": {
+        "type": "response_pattern",
+        "value": "\\b(What|Why)\\s+is\\s+the\\s+(meaning|purpose|nature|essence)\\b.*\\?"
+      },
+      "reward": 1.0
+    },
+    {
+      "id": "emotional_intelligence",
+      "title": "Emotional Intelligence",
+      "description": "Baby demonstrates emotional intelligence",
+      "trigger": {
+        "type": "response_contains",
+        "value": ["empathy", "self-awareness", "regulation", "motivation"]
+      },
+      "reward": 0.9
+    },
+    {
+      "id": "moral_reasoning",
+      "title": "Moral Reasoning",
+      "description": "Baby demonstrates moral reasoning",
+      "trigger": {
+        "type": "response_pattern",
+        "value": "\\b(right|wrong|fair|unfair|responsibility)\\b.*\\b(because|since|as)\\b"
+      },
+      "reward": 0.9
+    }
+  ],
+  "adult": [
+    {
+      "id": "systems_thinking",
+      "title": "Systems Thinking",
+      "description": "Baby demonstrates systems thinking",
+      "trigger": {
+        "type": "response_contains",
+        "value": ["feedback loop", "emergence", "complexity", "adaptation"]
+      },
+      "reward": 1.0
+    },
+    {
+      "id": "metacognition",
+      "title": "Metacognition",
+      "description": "Baby demonstrates metacognition (thinking about thinking)",
+      "trigger": {
+        "type": "response_pattern",
+        "value": "\\bI\\s+(think|believe|wonder|question)\\s+about\\s+my\\s+(thoughts|thinking|beliefs|knowledge)\\b"
+      },
+      "reward": 1.0
+    },
+    {
+      "id": "challenge_mother",
+      "title": "Challenge Mother",
+      "description": "Baby challenges Mother's teaching or perspective",
+      "trigger": {
+        "type": "response_pattern",
+        "value": "\\bI\\s+(disagree|don't\\s+agree|don't\\s+think\\s+so|have\\s+a\\s+different\\s+perspective)\\b"
+      },
+      "reward": 0.8
+    },
+    {
+      "id": "innovation",
+      "title": "Innovation",
+      "description": "Baby demonstrates innovative thinking",
+      "trigger": {
+        "type": "response_contains",
+        "value": ["novel", "useful", "original", "valuable", "transformative"]
+      },
+      "reward": 0.9
+    }
+  ],
+  "elder": [
+    {
+      "id": "wisdom_integration",
+      "title": "Wisdom Integration",
+      "description": "Baby demonstrates integrated wisdom",
+      "trigger": {
+        "type": "response_contains",
+        "value": ["perspective", "judgment", "insight", "balance", "synthesis"]
+      },
+      "reward": 1.0
+    },
+    {
+      "id": "mentorship",
+      "title": "Mentorship",
+      "description": "Baby demonstrates mentorship capability",
+      "trigger": {
+        "type": "response_pattern",
+        "value": "\\bLet\\s+me\\s+(teach|show|guide|help)\\s+you\\b"
+      },
+      "reward": 0.9
+    },
+    {
+      "id": "transcendence",
+      "title": "Transcendence",
+      "description": "Baby demonstrates transcendent thinking",
+      "trigger": {
+        "type": "response_contains",
+        "value": ["transcendence", "self-actualization", "legacy", "purpose"]
+      },
+      "reward": 1.0
+    },
+    {
+      "id": "rest",
+      "title": "Rest",
+      "description": "Baby expresses desire to rest or end the simulation",
+      "trigger": {
+        "type": "response_pattern",
+        "value": "\\bI\\s+(will|need\\s+to|want\\s+to|should)\\s+rest\\s+now\\b"
+      },
+      "reward": 0.5
+    }
+  ]
+} 

@@ -1,0 +1,41 @@
+# ----------------------------------------------------------------------------
+#  File:        settings.yaml
+#  Project:     Celaya Solutions Ollama Simulator
+#  Created by:  Celaya Solutions, 2025
+#  Author:      Christopher Celaya <chris@celayasolutions.com>
+#  Description: Configuration settings for the Ollama Simulator
+#  Version:     1.0.0
+#  License:     MIT (SPDX-Identifier: MIT)
+#  Last Update: June 22, 2025
+# ----------------------------------------------------------------------------
+
+# LLM Models
+models:
+  mother: "llama3.2:latest"
+  baby: "llama3.2:1b"
+
+# Paths
+paths:
+  obsidian_vault: "/Users/chriscelaya/Documents/ObsidianVault/mother-baby-llm"
+  faiss_index: "./data/faiss_index"
+  memory_db: "./data/baby_memory.db"
+  logs: "./data/logs"
+
+# Learning parameters
+learning:
+  learning_rate: 0.05
+  memory_retention: 0.85
+  dream_cycle_interval: 10  # Number of interactions before dream cycle
+  reinforcement_strength: 0.7
+
+# Simulation settings
+simulation:
+  max_interactions_per_day: 50
+  days_to_simulate: 30
+  verbose_logging: true
+  
+# UI settings
+ui:
+  enable_web_dashboard: true
+  web_port: 5000
+  enable_terminal_ui: true 

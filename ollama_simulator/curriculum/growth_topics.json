@@ -1,0 +1,244 @@
+{
+  "infant": {
+    "vocabulary": [
+      {
+        "id": "basic_sounds",
+        "title": "Basic Sounds",
+        "description": "Learning basic sounds like vowels and simple consonants",
+        "expected_concepts": ["a", "e", "i", "o", "u", "m", "b", "p"],
+        "difficulty": 0.1
+      },
+      {
+        "id": "first_words",
+        "title": "First Words",
+        "description": "Learning simple first words like 'mama', 'dada', 'up', 'down'",
+        "expected_concepts": ["mama", "dada", "up", "down", "yes", "no"],
+        "difficulty": 0.2
+      }
+    ],
+    "emotions": [
+      {
+        "id": "basic_emotions",
+        "title": "Basic Emotions",
+        "description": "Learning to recognize and express basic emotions",
+        "expected_concepts": ["happy", "sad", "angry"],
+        "difficulty": 0.2
+      }
+    ],
+    "perception": [
+      {
+        "id": "object_permanence",
+        "title": "Object Permanence",
+        "description": "Understanding that objects continue to exist even when they cannot be seen",
+        "expected_concepts": ["exists", "hidden", "find"],
+        "difficulty": 0.3
+      }
+    ]
+  },
+  "toddler": {
+    "vocabulary": [
+      {
+        "id": "simple_sentences",
+        "title": "Simple Sentences",
+        "description": "Learning to form simple sentences with subject and verb",
+        "expected_concepts": ["I am", "you are", "it is", "want", "like"],
+        "difficulty": 0.3
+      },
+      {
+        "id": "question_words",
+        "title": "Question Words",
+        "description": "Learning to use question words like what, where, who",
+        "expected_concepts": ["what", "where", "who", "why"],
+        "difficulty": 0.4
+      }
+    ],
+    "emotions": [
+      {
+        "id": "complex_emotions",
+        "title": "Complex Emotions",
+        "description": "Learning to recognize and express more complex emotions",
+        "expected_concepts": ["surprised", "scared", "excited", "confused"],
+        "difficulty": 0.4
+      }
+    ],
+    "social": [
+      {
+        "id": "greetings",
+        "title": "Greetings",
+        "description": "Learning basic social interactions like greetings",
+        "expected_concepts": ["hello", "goodbye", "please", "thank you"],
+        "difficulty": 0.3
+      },
+      {
+        "id": "sharing",
+        "title": "Sharing",
+        "description": "Learning the concept of sharing",
+        "expected_concepts": ["mine", "yours", "share", "take turns"],
+        "difficulty": 0.5
+      }
+    ]
+  },
+  "child": {
+    "vocabulary": [
+      {
+        "id": "complex_sentences",
+        "title": "Complex Sentences",
+        "description": "Learning to form more complex sentences with multiple clauses",
+        "expected_concepts": ["because", "if", "when", "after", "before"],
+        "difficulty": 0.5
+      },
+      {
+        "id": "adjectives",
+        "title": "Adjectives",
+        "description": "Learning to use descriptive words",
+        "expected_concepts": ["big", "small", "hot", "cold", "fast", "slow"],
+        "difficulty": 0.4
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "cause_effect",
+        "title": "Cause and Effect",
+        "description": "Understanding that actions have consequences",
+        "expected_concepts": ["because", "if", "then", "result", "cause"],
+        "difficulty": 0.6
+      },
+      {
+        "id": "categorization",
+        "title": "Categorization",
+        "description": "Learning to group similar items together",
+        "expected_concepts": ["animal", "food", "toy", "color", "shape"],
+        "difficulty": 0.5
+      }
+    ],
+    "creativity": [
+      {
+        "id": "storytelling",
+        "title": "Storytelling",
+        "description": "Learning to create and tell simple stories",
+        "expected_concepts": ["once upon a time", "then", "end", "character", "adventure"],
+        "difficulty": 0.6
+      },
+      {
+        "id": "imagination",
+        "title": "Imagination",
+        "description": "Learning to use imagination to create new scenarios",
+        "expected_concepts": ["pretend", "imagine", "could be", "what if"],
+        "difficulty": 0.5
+      }
+    ]
+  },
+  "teenager": {
+    "reasoning": [
+      {
+        "id": "abstract_thinking",
+        "title": "Abstract Thinking",
+        "description": "Learning to think about abstract concepts",
+        "expected_concepts": ["freedom", "justice", "truth", "beauty", "meaning"],
+        "difficulty": 0.7
+      },
+      {
+        "id": "critical_thinking",
+        "title": "Critical Thinking",
+        "description": "Learning to analyze and evaluate information",
+        "expected_concepts": ["evidence", "argument", "bias", "reliable", "valid"],
+        "difficulty": 0.8
+      }
+    ],
+    "emotions": [
+      {
+        "id": "emotional_intelligence",
+        "title": "Emotional Intelligence",
+        "description": "Learning to understand and manage emotions",
+        "expected_concepts": ["empathy", "self-awareness", "regulation", "motivation"],
+        "difficulty": 0.7
+      }
+    ],
+    "ethics": [
+      {
+        "id": "moral_reasoning",
+        "title": "Moral Reasoning",
+        "description": "Learning to make ethical judgments",
+        "expected_concepts": ["right", "wrong", "fair", "unfair", "responsibility"],
+        "difficulty": 0.8
+      },
+      {
+        "id": "ethical_dilemmas",
+        "title": "Ethical Dilemmas",
+        "description": "Learning to navigate complex ethical situations",
+        "expected_concepts": ["trolley problem", "utilitarianism", "deontology", "virtue ethics"],
+        "difficulty": 0.9
+      }
+    ]
+  },
+  "adult": {
+    "reasoning": [
+      {
+        "id": "systems_thinking",
+        "title": "Systems Thinking",
+        "description": "Learning to understand complex systems and their interactions",
+        "expected_concepts": ["feedback loop", "emergence", "complexity", "adaptation"],
+        "difficulty": 0.9
+      },
+      {
+        "id": "metacognition",
+        "title": "Metacognition",
+        "description": "Learning to think about thinking",
+        "expected_concepts": ["reflection", "awareness", "monitoring", "evaluation"],
+        "difficulty": 0.8
+      }
+    ],
+    "philosophy": [
+      {
+        "id": "epistemology",
+        "title": "Epistemology",
+        "description": "Learning about knowledge and how we know things",
+        "expected_concepts": ["knowledge", "belief", "justification", "truth", "skepticism"],
+        "difficulty": 0.9
+      },
+      {
+        "id": "existentialism",
+        "title": "Existentialism",
+        "description": "Learning about existence, freedom, and meaning",
+        "expected_concepts": ["existence", "essence", "freedom", "responsibility", "meaning"],
+        "difficulty": 0.9
+      }
+    ],
+    "creativity": [
+      {
+        "id": "innovation",
+        "title": "Innovation",
+        "description": "Learning to create new ideas and solutions",
+        "expected_concepts": ["novel", "useful", "original", "valuable", "transformative"],
+        "difficulty": 0.8
+      }
+    ]
+  },
+  "elder": {
+    "wisdom": [
+      {
+        "id": "wisdom_integration",
+        "title": "Wisdom Integration",
+        "description": "Learning to integrate knowledge and experience into wisdom",
+        "expected_concepts": ["perspective", "judgment", "insight", "balance", "synthesis"],
+        "difficulty": 0.9
+      },
+      {
+        "id": "mentorship",
+        "title": "Mentorship",
+        "description": "Learning to guide and teach others",
+        "expected_concepts": ["guidance", "support", "challenge", "growth", "development"],
+        "difficulty": 0.8
+      }
+    ],
+    "philosophy": [
+      {
+        "id": "transcendence",
+        "title": "Transcendence",
+        "description": "Learning to transcend limitations and find deeper meaning",
+        "expected_concepts": ["transcendence", "self-actualization", "legacy", "purpose"],
+        "difficulty": 1.0
+      }
+    ]
+  }
+} 
