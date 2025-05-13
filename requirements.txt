@@ -1,0 +1,33 @@
+# ----------------------------------------------------------------------------
+#  File:        requirements.txt
+#  Project:     Celaya Solutions Ollama Simulator
+#  Created by:  Celaya Solutions, 2025
+#  Author:      Christopher Celaya <chris@celayasolutions.com>
+#  Description: Dependencies for the Ollama Simulator project
+#  Version:     1.0.0
+#  License:     MIT (SPDX-Identifier: MIT)
+#  Last Update: June 22, 2025
+# ----------------------------------------------------------------------------
+
+# Core dependencies
+ollama
+python-dotenv==1.0.0
+pyyaml==6.0.1
+requests==2.31.0
+
+# Memory and vector storage
+faiss-cpu==1.7.4
+sqlite-utils==3.35
+numpy==1.26.3
+
+# Web dashboard
+flask==2.3.3
+flask-socketio==5.3.6
+
+# Terminal UI
+textual==0.40.0
+
+# Utilities
+tqdm==4.66.1
+loguru==0.7.2
+regex==2023.10.3 
